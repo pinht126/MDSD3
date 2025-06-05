@@ -39,6 +39,9 @@ Initail noise equation : 𝑙𝑎𝑡𝑒𝑛𝑡𝑠=𝛼∗𝑛𝑜𝑖𝑠�
 
 ![image](https://github.com/user-attachments/assets/66a96b51-e980-4ec1-8f64-9c018742c95f)
 
+Problem: The generated results tend to preserve the overall color structure of the initial input image.
+
+
 <p>
 <p align="center">
     <a href="https://github.com/huggingface/diffusers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/datasets.svg?color=blue"></a>
