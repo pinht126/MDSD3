@@ -20,6 +20,24 @@ Haze and rain both have the characteristic of increasing overall brightness. Whe
 
 ![image](https://github.com/user-attachments/assets/7495555c-f969-45d9-9912-be83d2df2744)
 
+# Adjust the Initial Noise using the noise equation!
+![image](https://github.com/user-attachments/assets/7a8ef04f-c151-4620-9d9d-88359a80613f)
+![image](https://github.com/user-attachments/assets/fdd6ae58-d30a-4981-89d3-4e330127f8bf)
+
+noise equation : 𝑙𝑎𝑡𝑒𝑛𝑡𝑠=𝛼∗𝑛𝑜𝑖𝑠𝑒+𝛽∗𝑖𝑛𝑝𝑢𝑡 (𝛼+𝛽=1)
+
+
+As noise decreases, the degradation condition becomes weaker.
+Therefore, we want the sum of alpha and beta to be greater than 1.
+Initail noise equation : 𝑙𝑎𝑡𝑒𝑛𝑡𝑠=𝛼∗𝑛𝑜𝑖𝑠𝑒+𝛽∗𝑖𝑛𝑝𝑢𝑡 (𝛼+𝛽>1)
+
+![image](https://github.com/user-attachments/assets/de39e0b6-71bc-443d-ac9a-19d508991a56)
+
+# Results
+
+![image](https://github.com/user-attachments/assets/d26b2524-6ca9-43cf-9ad0-e176484e5a71)
+
+![image](https://github.com/user-attachments/assets/66a96b51-e980-4ec1-8f64-9c018742c95f)
 
 <p>
 <p align="center">
