@@ -1,7 +1,13 @@
+# Difference between Stable Diffusion v3
+![image](https://github.com/user-attachments/assets/4b9f5aa1-2a7c-48bd-9214-56133ec9a4e6)
+
 # Applying the Masking Algorithm to Stable Diffusion v3
 ![image](https://github.com/user-attachments/assets/93073c82-83e9-4433-811a-73c371598d10)
 
 We apply the head-wise masking technique to Stable Diffusion v3, aiming to preserve its generation performance while enabling the creation of complex degraded images through the masking mechanism.
+
+![image](https://github.com/user-attachments/assets/2ecf9236-d1f8-40f9-8630-b7e0e8b55f7d)
+
 
 <p>
 <p align="center">
