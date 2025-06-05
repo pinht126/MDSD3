@@ -1,6 +1,8 @@
 # Applying the Masking Algorithm to Stable Diffusion v3
 ![image](https://github.com/user-attachments/assets/93073c82-83e9-4433-811a-73c371598d10)
 
+We apply the head-wise masking technique to Stable Diffusion v3, aiming to preserve its generation performance while enabling the creation of complex degraded images through the masking mechanism.
+
 <p>
 <p align="center">
     <a href="https://github.com/huggingface/diffusers/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/huggingface/datasets.svg?color=blue"></a>
