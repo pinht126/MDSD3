@@ -6,6 +6,12 @@
 
 We apply the head-wise masking technique to Stable Diffusion v3, aiming to preserve its generation performance while enabling the creation of complex degraded images through the masking mechanism.
 
+# Applying Clean Image Condition to Preserve Scene Image
+![image](https://github.com/user-attachments/assets/b487f727-c67b-4647-8a6e-6d811479c22c)
+We duplicate the part that receives the input image and insert clean image information by summing it with the output of a zero-convolution layer, allowing the model to preserve the original content.
+However, we remove the modulation mechanism of AdaLN-Zero from the clean image input path, as the clean image information does not need to be influenced by the class conditioning.
+
+# Results
 ![image](https://github.com/user-attachments/assets/2ecf9236-d1f8-40f9-8630-b7e0e8b55f7d)
 
 
