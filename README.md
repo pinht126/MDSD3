@@ -13,6 +13,12 @@ However, we remove the modulation mechanism of AdaLN-Zero from the clean image i
 
 # Results
 ![image](https://github.com/user-attachments/assets/2ecf9236-d1f8-40f9-8630-b7e0e8b55f7d)
+Haze and rain both have the characteristic of increasing overall brightness. When both conditions are applied simultaneously, this can lead to the rain effect becoming overly blurred.
+
+# Modify the masking ratio to a (float) value other than 1 and 0 when generating multi-degradation images.
+![image](https://github.com/user-attachments/assets/686a6a2e-8088-4aec-bd52-5f7a60145e44)
+
+![image](https://github.com/user-attachments/assets/7495555c-f969-45d9-9912-be83d2df2744)
 
 
 <p>
