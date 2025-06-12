@@ -44,11 +44,15 @@ Problem: The generated results tend to preserve the overall color structure of t
 # Frequency-Domain Analysis
 
 Step-wise generation results are presented for the haze, rain, and haze&rain classes.
+
 ![image](https://github.com/user-attachments/assets/1f28bd6d-90a9-41bf-afbb-c7897ca56f43)
+ 
  It is observed that haze, being a low-frequency degradation, is generated in the early steps of the diffusion model, whereas rain, which has high-frequency characteristics, is generated in the later steps.
 
  ![image](https://github.com/user-attachments/assets/6f2b2d72-091d-4a01-840e-cbc60b6db905)
+
 [Boosting diffusion models with moving average sampling in frequency domain Qian et al, CVPR 2024]
+
 Qian et al. stated that “Diffusion models at the denoising process first focus on the recovery of low-frequency components in the earlier timesteps and gradually shift to recovering high-frequency details in the later timesteps.”
 
 -> So, Degradation-specific details(rain) should be generated in the later stages of the denoising process.
@@ -57,6 +61,7 @@ Qian et al. stated that “Diffusion models at the denoising process first focus
 ![image](https://github.com/user-attachments/assets/2e9cc86b-ee5f-4403-bbfa-25cd36bb1acf)
 
 [Jiang, Liming, et al. "Focal frequency loss for image reconstruction and synthesis." Proceedings of the IEEE/CVF international conference on computer vision. 2021.]
+
 L jiang et al. use a frequency-domain loss instead of pixel-based loss when training GANs or VAEs  to better learn high-frequency details.
 
 
@@ -68,7 +73,9 @@ Since frequency components become more important in the later stages of the back
 
 # results
 ![image](https://github.com/user-attachments/assets/2f78baf9-811b-4dac-8850-9710eb478845)
+
 Artificial noise is suppressed, resulting in the effective generation of images containing a mixture of rain and haze degradations.
+
 It shows visually effective results in specific style mixing scenarios.
 
 
