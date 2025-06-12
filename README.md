@@ -60,7 +60,8 @@ Qian et al. stated that “Diffusion models at the denoising process first focus
 L jiang et al. use a frequency-domain loss instead of pixel-based loss when training GANs or VAEs  to better learn high-frequency details.
 
 
-![image](https://github.com/user-attachments/assets/11a3a5f1-fedf-43c9-bbbc-03de496f9cbf)
+![image](https://github.com/user-attachments/assets/d5668982-afeb-4527-8095-6ea67827b298)
+
 We train the model to learn the degradation details(high-frequency).
 
 Since frequency components become more important in the later stages of the backward process (i.e., at smaller timesteps), we multiply the focal-frequency loss by a weighting factor of (1 - T / 1000) to assign greater importance when T is small.
